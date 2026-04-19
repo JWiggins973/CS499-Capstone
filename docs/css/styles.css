@@ -84,6 +84,7 @@ section { padding: 6rem 2.5rem; max-width: 1000px; margin: 0 auto; }
 .artifact-card:hover { border-color: var(--accent); }
 .artifact-preview { width: 100%; height: 260px; background: #0a0c12; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--border); color: var(--muted); font-size: 0.875rem; position: relative; overflow: hidden; }
 .artifact-preview img { width: 100%; height: 100%; object-fit: cover; display: block; background: #0a0c12; }
+.artifact-preview img.gif-preview { object-fit: contain; transform: scale(1.1); transform-origin: center; }
 .artifact-demo { width: 100%; height: 340px; border-bottom: 1px solid var(--border); position: relative; background: var(--bg); }
 .artifact-demo iframe { width: 100%; height: 100%; border: none; display: block; }
 .artifact-badge { position: absolute; top: 1rem; left: 1rem; z-index: 2; background: var(--accent); color: #fff; font-size: 0.7rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.25rem 0.6rem; border-radius: 4px; }
@@ -134,11 +135,11 @@ section { padding: 6rem 2.5rem; max-width: 1000px; margin: 0 auto; }
 .tab-content.active { display: block; }
 .narrative-section { margin-bottom: 2rem; }
 .narrative-section:last-child { margin-bottom: 0; }
-.narrative-section-title { font-family: var(--serif); font-size: 1rem; color: var(--accent2); margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.75rem; }
+.narrative-section-title { font-family: var(--serif); font-size: 1rem; color: #ffffff; font-weight: 700; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.75rem; }
 .narrative-section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-.modal-body p { color: var(--muted); font-size: 0.875rem; line-height: 1.9; margin-bottom: 0.85rem; }
+.modal-body p { color: #b0b5c8; font-size: 0.875rem; line-height: 1.9; margin-bottom: 0.85rem; }
 .modal-body p:last-child { margin-bottom: 0; }
-.modal-body strong { color: var(--text); font-weight: 500; }
+.modal-body strong { color: #b0b5c8; font-weight: 400; }
 
 /* ─── FOOTER ─── */
 footer { border-top: 1px solid var(--border); padding: 2rem 2.5rem; display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 0.8rem; }
