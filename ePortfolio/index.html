@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jermaine Wiggins | CS499 ePortfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <a href="#" class="nav-name">Jermaine Wiggins</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#artifacts">Artifacts</a></li>
+  </ul>
+</nav>
+
+<!-- ─── HERO ─── -->
+<div class="hero">
+  <p class="hero-tag">CS499 Computer Science Capstone &mdash; SNHU</p>
+  <h1>Jermaine<br><span>Wiggins</span></h1>
+  <p class="hero-role">Aspiring <span>Data Analyst</span> & <span>Software Engineer</span></p>
+  <p>CS graduate with a background in sales, building software that is structured, efficient, secure, and accessible to the people who use it.</p>
+  <div class="hero-links">
+    <a href="#artifacts" class="btn btn-primary">View Artifacts</a>
+    <a href="https://github.com/JWiggins973" class="btn btn-outline" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <p class="section-label">Professional Self-Assessment</p>
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">Computer Science graduate from SNHU with a background in sales, transitioning into a Data Analyst or Software Engineer role. My experience communicating across teams and adapting to different audiences shaped how I approach software — data should be accessible, usable, and built with the end user in mind.</p>
+
+  <div class="assessment-box">
+
+    <div class="assessment-block">
+      <p class="assessment-subhead">Collaboration & Communication</p>
+      <p class="preview-text">Within the program, I developed collaboration skills through team-based environments where I contributed changes through structured version control workflows, participated in peer code review, and coordinated work across a shared codebase.</p>
+      <div class="full-text" id="collab-full">
+        <p>Within the program, I developed collaboration skills through team-based environments where I contributed changes through structured version control workflows, participated in peer code review, and coordinated work across a shared codebase. Reviewing the work of others and having my own work reviewed taught me to write with clarity and consistency in mind.</p>
+        <p>I carried that practice into personal projects outside of coursework, organizing repositories and documentation for an audience that was not part of the original build. Through both academic writing and my sales background, I learned to explain information to technical and non-technical audiences by adjusting detail and language to fit the situation.</p>
+      </div>
+      <button class="read-more-btn" onclick="toggleReadMore(this, 'collab-full')">Read more <span class="arrow">▼</span></button>
+    </div>
+
+    <div class="assessment-block">
+      <p class="assessment-subhead">Technical Skills</p>
+      <p class="preview-text">My understanding of data structures and algorithms developed through solving problems that required evaluating tradeoffs between time and space complexity and selecting structures that fit the access patterns of a given problem.</p>
+      <div class="full-text" id="tech-full">
+        <p>My understanding of data structures and algorithms developed through solving problems that required evaluating tradeoffs between time and space complexity and selecting structures that fit the access patterns of a given problem.</p>
+        <p>Software engineering and database concepts were strengthened through building systems that manage structured data, writing automated tests to verify correctness, and designing backend interfaces that a frontend could consume reliably. Security was integrated into my approach from the start — I learned to anticipate misuse, validate inputs, and design with risk awareness rather than as an afterthought.</p>
+      </div>
+      <button class="read-more-btn" onclick="toggleReadMore(this, 'tech-full')">Read more <span class="arrow">▼</span></button>
+    </div>
+
+    <div class="assessment-block">
+      <p class="assessment-subhead">About This Portfolio</p>
+      <p class="preview-text">The three artifacts in this portfolio each target a distinct area of computer science: software design and engineering, algorithms and data structures, and client-server development with a database backend.</p>
+      <div class="full-text" id="portfolio-full">
+        <p>The three artifacts in this portfolio each target a distinct area of computer science: software design and engineering, algorithms and data structures, and client-server development with a database backend.</p>
+        <p>Collectively, they demonstrate the full range of skills developed throughout the program and show my ability to improve existing software across multiple dimensions, producing work that is structured, efficient, secure, and built with the end user in mind.</p>
+      </div>
+      <button class="read-more-btn" onclick="toggleReadMore(this, 'portfolio-full')">Read more <span class="arrow">▼</span></button>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ─── ARTIFACTS ─── -->
+<section id="artifacts">
+  <p class="section-label">Enhanced Artifacts</p>
+  <h2 class="section-title">Three Categories of Growth</h2>
+  <p class="section-sub">Each artifact was selected from prior coursework and enhanced to demonstrate mastery across the five CS program outcomes.</p>
+
+  <!-- ARTIFACT 1 -->
+  <div class="artifact-card">
+    <div class="artifact-preview">
+      <span class="artifact-badge">Artifact 1</span>
+      <img src="previews/Enhancement_One.gif" alt="SNHU Apocalypse Game gameplay">
+    </div>
+    <div class="artifact-body">
+      <p class="artifact-category">Software Design and Engineering</p>
+      <h3 class="artifact-title">SNHU Apocalypse Game</h3>
+      <p class="artifact-desc">A text-based adventure game originally built in Python, refactored into OOP classes and enhanced with a Tkinter GUI, custom AI-generated room images, and defensive programming.</p>
+      <ul class="enhancements">
+        <li><span class="enhancement-num">1</span>Refactored code into Room, Player, and Game classes</li>
+        <li><span class="enhancement-num">2</span>Added Tkinter GUI with room images and navigation buttons</li>
+        <li><span class="enhancement-num">3</span>Input validation and defensive programming throughout</li>
+      </ul>
+      <div class="artifact-links">
+        <a href="https://github.com/JWiggins973/text-adventure-python/tree/main" class="artifact-link" target="_blank">Original Code</a>
+        <a href="https://github.com/JWiggins973/text-adventure-python" class="artifact-link" target="_blank">Enhanced Code</a>
+        <button class="review-btn" onclick="openModal('review-modal1')">▶ Code Review</button>
+        <button class="narrative-btn" onclick="openModal('modal1')">Read Narrative</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTIFACT 2 -->
+  <div class="artifact-card">
+    <div class="artifact-preview">
+      <span class="artifact-badge">Artifact 2</span>
+      <img src="previews/Enhancement_Two.png" alt="Course Planner preview">
+    </div>
+    <div class="artifact-body">
+      <p class="artifact-category">Algorithms and Data Structures</p>
+      <h3 class="artifact-title">Course Planner</h3>
+      <p class="artifact-desc">A C++ course planning tool rebuilt in Angular with optimized data structures, recursive graph traversal, topological sorting, and a modern web interface.</p>
+      <ul class="enhancements">
+        <li><span class="enhancement-num">1</span>Replaced vector and set with a Map for O(1) lookups</li>
+        <li><span class="enhancement-num">2</span>Added recursive prerequisite and unlock path algorithms</li>
+        <li><span class="enhancement-num">3</span>Replaced alphabetical sort with topological sort by dependency</li>
+        <li><span class="enhancement-num">4</span>Added caching so repeat lookups drop to O(1)</li>
+      </ul>
+      <div class="artifact-links">
+        <a href="https://github.com/JWiggins973/course-selector/tree/main" class="artifact-link" target="_blank">Original Code</a>
+        <a href="https://github.com/JWiggins973/course-selector" class="artifact-link" target="_blank">Enhanced Code</a>
+        <a href="https://jwiggins973.github.io/course-selector" class="artifact-link demo" target="_blank">↗ Full Demo</a>
+        <button class="review-btn" onclick="openModal('review-modal2')">▶ Code Review</button>
+        <button class="narrative-btn" onclick="openModal('modal2')">Read Narrative</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARTIFACT 3 -->
+  <div class="artifact-card">
+    <div class="artifact-preview">
+      <span class="artifact-badge">Artifact 3</span>
+      <img src="previews/Enhancement_Three.png" alt="Animal Shelter Dashboard preview">
+    </div>
+    <div class="artifact-body">
+      <p class="artifact-category">Databases</p>
+      <h3 class="artifact-title">Animal Shelter Dashboard</h3>
+      <p class="artifact-desc">A Python and MongoDB dashboard for Grazioso Salvare migrated from a Jupyter notebook to a Flask REST API with a JavaScript frontend, indexed queries, and layered security.</p>
+      <ul class="enhancements">
+        <li><span class="enhancement-num">1</span>Cleaned up comments, removed dead code, added named constants</li>
+        <li><span class="enhancement-num">2</span>Added indexes on animal_type and breed — O(n) to O(log n)</li>
+        <li><span class="enhancement-num">3</span>Expanded CRUD with count, create_many, update_many, delete_many</li>
+        <li><span class="enhancement-num">4</span>Moved hardcoded credentials to a .env file</li>
+        <li><span class="enhancement-num">5</span>Added live stats bar with query timer</li>
+      </ul>
+      <div class="artifact-links">
+        <a href="https://github.com/JWiggins973/animal-shelter-dashboard/tree/main" class="artifact-link" target="_blank">Original Code</a>
+        <a href="https://github.com/JWiggins973/animal-shelter-dashboard" class="artifact-link" target="_blank">Enhanced Code</a>
+        <a href="https://jwiggins973.github.io/animal-shelter-dashboard" class="artifact-link demo" target="_blank">↗ Full Demo</a>
+        <button class="review-btn" onclick="openModal('review-modal3')">▶ Code Review</button>
+        <button class="narrative-btn" onclick="openModal('modal3')">Read Narrative</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <span>Jermaine Wiggins &mdash; CS499 Computer Science Capstone &mdash; SNHU 2026</span>
+  <a href="https://github.com/JWiggins973" style="color: var(--muted); text-decoration: none;" target="_blank">github.com/JWiggins973</a>
+</footer>
+
+<!-- ─── NARRATIVE MODAL 1 ─── -->
+<div class="modal-overlay" id="modal1" onclick="handleOverlayClick(event, 'modal1')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Software Design and Engineering</span>
+        <h2 class="modal-title">SNHU Apocalypse Game</h2>
+      </div>
+      <button class="modal-close" onclick="closeModal('modal1')">✕</button>
+    </div>
+    <div class="modal-tabs">
+      <button class="modal-tab active" onclick="switchTab(this, 'tab1-overview')">Overview</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab1-outcomes')">Course Outcomes</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab1-reflection')">Reflection</button>
+    </div>
+    <div class="modal-body">
+      <div class="tab-content active" id="tab1-overview">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What is the artifact?</p>
+          <p>The artifact is a text-based adventure game I originally built in 2024 in IT-140: Foundation in Application Development during my first year at SNHU. The player moves through rooms in a school, collects six items, and defeats Principal X to escape. The original version was a single procedural Python script that stored all room data in one dictionary and used console input and output for everything. There were no classes, no structure, and no way for a non-technical user to play without typing exact commands.</p>
+        </div>
+        <div class="narrative-section">
+          <p class="narrative-section-title">Why did I select it?</p>
+          <p>I chose this artifact because it had clear room for improvement through better software design. The original code worked but it was all in one file with no organization, making it difficult to read, test, or expand. Refactoring it gave me the chance to show that I can take messy working code and turn it into something well-structured and professional.</p>
+          <p>The biggest design improvement was breaking the script into three classes. The <strong>Room class</strong> manages exits and items for a single room. The <strong>Player class</strong> tracks where the player is and what they have picked up. The <strong>Game class</strong> ties everything together, handling movement, item pickup, win and lose conditions, and game reset. This separation means each piece can be understood, changed, and tested on its own without affecting the others.</p>
+          <p>I replaced all raw strings in the code with <strong>StrEnum constants</strong> for directions, room names, and items. Instead of typing plain text like "Library" or "N" throughout the code, the program uses defined constants like RoomName.LIBRARY and Direction.NORTH. This catches typos and inconsistencies in the source code immediately rather than allowing them to cause silent bugs at runtime.</p>
+          <p>Defensive programming is built into the design in several places. The Player's move method checks whether a direction exists in the current room's exits before allowing movement and returns False if it does not. The get_inventory method returns a copy of the inventory list rather than the list itself, so nothing outside the Player class can accidentally modify the real inventory. The GUI takes this even further by only showing buttons for valid rooms, meaning the user cannot submit an invalid command through the interface.</p>
+          <p>On top of the class structure, I built a <strong>Tkinter GUI</strong> that replaces the console entirely. The player sees the current room, available exits as clickable buttons, an inventory display, and a pickup button that only appears when there is an item in the room. I wrote unit tests across all three classes covering movement between rooms, inventory management, win and lose conditions, invalid moves, and game reset. I also organized the source files into a proper Python package called snhu_apocalypse, added a .gitignore, and added a requirements.txt so anyone can install the project dependencies in one step.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab1-outcomes">
+        <div class="narrative-section">
+          <p class="narrative-section-title">All planned outcomes were fully met</p>
+          <p><strong>Outcome 1</strong> — Building environments that help diverse audiences make decisions was met by replacing typed console commands with a point-and-click GUI. The original version required the player to know exact text commands. The enhanced version uses simple buttons that anyone can understand regardless of technical background, making the game accessible to a much wider audience.</p>
+          <p><strong>Outcome 2</strong> — Delivering professional-quality communications that are technically sound was met by writing clean and readable code throughout. Every class and method has docstrings explaining what it does. Variable names are descriptive and consistent. The code is organized into a proper package structure with clear file separation, making it easy for another developer to read and understand.</p>
+          <p><strong>Outcome 3</strong> — Designing computing solutions using sound practices while managing design tradeoffs was met by refactoring the single procedural script into three classes that each handle one area of the game. Using StrEnum constants instead of raw strings and returning copies of internal data rather than direct references shows attention to proper software design practices.</p>
+          <p><strong>Outcome 4</strong> — Using well-founded techniques and tools to deliver solutions that provide real value was met by building the Tkinter GUI using a standard Python library, writing unit tests to verify the game logic, and organizing the project with a .gitignore and requirements.txt. These are standard industry practices that make the project reliable, portable, and maintainable.</p>
+          <p><strong>Outcome 5</strong> — Developing a security mindset that anticipates problems and prevents them through design was met through defensive programming throughout the codebase. The move method validates direction input before acting on it. The inventory is returned as a copy so outside code cannot tamper with the real data. StrEnum constants prevent invalid values from being introduced in the source code. The GUI only displays valid options, removing the possibility of bad input at the interface level.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab1-reflection">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What did I learn?</p>
+          <p>The biggest thing I learned was how much easier code becomes to work with when it is broken into smaller pieces with clear responsibilities. In the original script, a small change to how rooms worked could break item collection or movement because everything was tangled together. After refactoring, I could change the Room class without worrying about the Player class, and I could update the GUI without touching the game logic at all.</p>
+          <p>The hardest part was connecting the three classes together. The original code used simple room name strings in the exits dictionary. After refactoring, each exit needed to point to an actual Room object instead of just a name. I solved this with a two-pass approach where I first create all the Room objects, then loop through again and replace the string references with the real Room objects.</p>
+          <p>Building the GUI came with its own challenges. Tkinter handles widget layout differently than I expected, and button styling behaves differently on Mac than on Windows. I had to research alternatives and adapt my approach more than once. Writing the unit tests taught me how to think about edge cases, like what happens when a player tries to move in a direction that does not exist, or what happens if someone tries to pick up an item in an empty room. Those tests gave me confidence that the refactored code actually works the way it should.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── NARRATIVE MODAL 2 ─── -->
+<div class="modal-overlay" id="modal2" onclick="handleOverlayClick(event, 'modal2')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Algorithms and Data Structures</span>
+        <h2 class="modal-title">Course Planner</h2>
+      </div>
+      <button class="modal-close" onclick="closeModal('modal2')">✕</button>
+    </div>
+    <div class="modal-tabs">
+      <button class="modal-tab active" onclick="switchTab(this, 'tab2-overview')">Overview</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab2-outcomes')">Course Outcomes</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab2-reflection')">Reflection</button>
+    </div>
+    <div class="modal-body">
+      <div class="tab-content active" id="tab2-overview">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What is the artifact?</p>
+          <p>The ABCU Course Planner is a program I originally built in 2025 in CS-300: Data Structures and Algorithms. It loads course data from a CSV file and lets users search for courses and sort them. The original version was a command-line C++ program that most people outside of a computer science class would not know how to use.</p>
+        </div>
+        <div class="narrative-section">
+          <p class="narrative-section-title">Why did I select it?</p>
+          <p>I selected this artifact because the original implementation had clear room for improvement. Course lookups required scanning the entire vector at <strong>O(n)</strong>, prerequisite validation used a set at <strong>O(log n)</strong>, and an alphabetical quicksort ran at <strong>O(n log n)</strong> on every print request. There was no multi-level prerequisite traversal and no way to see what completing a course unlocks.</p>
+          <p>My goal was to push query times as close to O(1) as possible by restructuring the system around in-memory data structures. I replaced the vector and set with a single <strong>Map</strong> that brings all course lookups to amortized O(1). The alphabetical quicksort was replaced with a <strong>topological sort</strong> that runs once at startup at O(V + E), producing a single pre-computed list where every course appears after its prerequisites.</p>
+          <p>I built a <strong>recursive prerequisite chain</strong> using depth-first search that traverses prerequisite relationships in the Map at O(V + E) on the first click and returns every ancestor in dependency order. I added caching to store results and drop repeat lookups to O(1). The unlock path was fixed by building a <strong>reverse adjacency map</strong> during the same load step that populates the main Map, so dependents are already stored and each lookup runs at O(1) without needing to scan the full catalog.</p>
+          <p>On the security side I added a <strong>Content Security Policy</strong> to reduce the cross-site scripting attack surface, whitelisted all external resources, and used Angular's @Input({ required: true }) to enforce required data at compile time. The application was rebuilt from C++ into an Angular web application with color-coded course cards, real-time search with debounce, and a visual prerequisite chain. I also wrote unit tests covering lookups, chains, filtering, and topological ordering.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab2-outcomes">
+        <div class="narrative-section">
+          <p class="narrative-section-title">All planned outcomes were fully met</p>
+          <p><strong>Outcome 2</strong> — Delivering professional-quality communications that are technically sound was achieved by writing well-documented TypeScript code with clear method names, consistent formatting, and a component structure that separates the search, card display, and detail views into their own files.</p>
+          <p><strong>Outcome 3</strong> — Designing computing solutions using algorithmic principles while managing design tradeoffs was achieved in several ways. Replacing the vector and set with a Map improved lookup time from O(n) to amortized O(1) at the cost of higher memory for the hash structure. The topological sort replaced an alphabetical sort with an algorithm that solves the actual dependency problem at O(V + E) instead of O(n log n). The caching layer trades memory for eliminating redundant O(V + E) recursive traversals on repeat clicks.</p>
+          <p><strong>Outcome 4</strong> — Using well-founded techniques and tools to implement solutions that deliver real value was achieved by rebuilding the application in Angular 21 with recursive graph traversal algorithms that make the planner genuinely useful for course planning. Unit tests verify correctness across all service methods. The caching optimization was not part of the original plan but was added after recognizing inefficiency during code review.</p>
+          <p><strong>Outcome 5</strong> — Developing a security mindset that anticipates vulnerabilities was achieved by adding a Content Security Policy that restricts what the browser can load and reduces the cross-site scripting attack surface. All external resources are explicitly whitelisted. The .gitignore prevents sensitive files and build artifacts from being committed to version control. Angular's @Input({ required: true }) enforces required data at compile time, eliminating a category of runtime errors from missing inputs.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab2-reflection">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What did I learn?</p>
+          <p>The most difficult part was getting the recursive algorithms to produce correct results. On my first iteration the prerequisite chain displayed backwards because the recursion was appending courses in the wrong order. The unlock path had a similar issue where it recursively returned the entire downstream tree instead of just direct dependents. Fixing these bugs taught me the difference between code that runs and code that produces the right output. Building the reverse adjacency map to fix the unlock path also taught me when to fix a bug with a better data structure rather than just patching the logic. Once the algorithms were correct I added caching after spotting redundant traversals during code review. That progression from working to correct to optimized showed me that the first solution is rarely the final one.</p>
+          <p>Getting the development environment running was also a significant challenge. Angular 21 requires Node 18 or higher, but my system was running Node 10.23.0, which had been end-of-life since 2021. This caused syntax errors, missing platform binaries, and failed installs. I resolved this by switching to Node 20 through nvm. During package resolution, installing angular-cli-ghpages accidentally removed tslib, which broke every TypeScript file in the project. I fixed this by reinstalling the dependency. For deployment, I set up a <strong>GitHub Actions workflow</strong> that builds on Ubuntu with Node 22 and deploys to GitHub Pages automatically on every push.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── NARRATIVE MODAL 3 ─── -->
+<div class="modal-overlay" id="modal3" onclick="handleOverlayClick(event, 'modal3')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Databases</span>
+        <h2 class="modal-title">Animal Shelter Dashboard</h2>
+      </div>
+      <button class="modal-close" onclick="closeModal('modal3')">✕</button>
+    </div>
+    <div class="modal-tabs">
+      <button class="modal-tab active" onclick="switchTab(this, 'tab3-overview')">Overview</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab3-outcomes')">Course Outcomes</button>
+      <button class="modal-tab" onclick="switchTab(this, 'tab3-reflection')">Reflection</button>
+    </div>
+    <div class="modal-body">
+      <div class="tab-content active" id="tab3-overview">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What is the artifact?</p>
+          <p>This artifact is an animal shelter dashboard I originally worked on in the summer of 2025 in CS-340: Client/Server Development at SNHU. It was built using Python, MongoDB, and Dash, and allows users at Grazioso Salvare to filter animal rescue data by rescue type and view results in an interactive table, map, and breed chart. The base dashboard code was provided as part of the class and the original version ran inside a Jupyter notebook within a Docker container.</p>
+        </div>
+        <div class="narrative-section">
+          <p class="narrative-section-title">Why did I select it?</p>
+          <p>I chose this artifact because it combines a database layer, backend module, frontend interface, and security considerations all in one project. The base code was provided as part of the coursework, so getting it to run required reading and understanding someone else's codebase, troubleshooting a broken environment, and tracing authentication errors across a Docker container and local Python environment before I could improve it. This is closer to real-world production work where developers inherit existing codebases and build on top of them rather than starting from scratch.</p>
+          <p>On the database side, I added <strong>indexes on animal_type and breed</strong> to improve query performance from O(n) full collection scans to O(log n) using MongoDB's B-tree structure. Without indexes every query checks every document in the collection sequentially. With indexes MongoDB maintains a sorted tree that lets it skip directly to matching records. I also added a compound index on both fields together so queries that filter by animal type and breed simultaneously can resolve through a single index lookup. I expanded the CRUD module from four methods to eight by adding count, create_many, update_many, and delete_many to handle real-world batch operations.</p>
+          <p>On the architecture side, I migrated from a Dash-based Jupyter notebook to a <strong>Flask REST API with a vanilla JavaScript frontend</strong>. The original had frontend and backend mixed in one file. The new version routes requests through a service layer that is the only code that touches the database through the CRUD module. Config.js is the only file that changes between projects, and the rest of the code is split into focused modules for table rendering, filtering, mapping, charting, forms, and API communication.</p>
+          <p>I addressed security by moving hardcoded credentials into a <strong>.env file</strong>, adding query sanitization through an allowlist that strips unauthorized fields before they reach the database, restricting browser origins through CORS, and checking that required fields are present before inserting records.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab3-outcomes">
+        <div class="narrative-section">
+          <p class="narrative-section-title">All five outcomes were fully met</p>
+          <p><strong>Outcome 1</strong> — Building collaborative environments that enable diverse audiences to support organizational decision making was met by designing the dashboard so that non-technical stakeholders like rescue coordinators and shelter managers can interact with the data through filters, charts, and maps rather than writing database queries. The reusable dashboard engine also supports collaboration by making it easy for other developers to adapt the same framework for different projects by editing a single configuration file.</p>
+          <p><strong>Outcome 2</strong> — Delivering professional-quality communications that are technically sound was met by cleaning up the codebase, removing dead code, writing clear comments, and organizing the project into separate backend and frontend modules. The code is structured so that another developer could read through any single file and understand its purpose without needing to reference other files.</p>
+          <p><strong>Outcome 3</strong> — Designing computing solutions using algorithmic principles while managing design tradeoffs was met by adding database indexes. The tradeoff is that indexes use additional disk space and slightly slow down write operations because the index must be updated on every insert or delete. Since this application reads far more often than it writes, the improvement from O(n) full collection scans to O(log n) indexed lookups is well worth the cost.</p>
+          <p><strong>Outcome 4</strong> — Using well-founded techniques and tools to implement solutions that deliver real value was met by expanding the CRUD module with methods that handle real-world batch operations, building a dedicated test file to verify all methods work correctly, migrating from a notebook-based Dash application to a proper Flask REST API, and designing a reusable frontend engine that can be configured for different datasets without rewriting code.</p>
+          <p><strong>Outcome 5</strong> — Developing a security mindset that anticipates vulnerabilities and ensures privacy of data was met through multiple layers of protection. Moving credentials to environment variables prevents sensitive information from being exposed in source code or version control. Query sanitization with an allowlist reduces the injection attack surface by stripping unauthorized fields before they reach the database. CORS restrictions limit which browser origins can make API requests. Required field validation checks that expected fields are present before inserting records.</p>
+        </div>
+      </div>
+      <div class="tab-content" id="tab3-reflection">
+        <div class="narrative-section">
+          <p class="narrative-section-title">What did I learn?</p>
+          <p>The biggest challenge had nothing to do with the code itself. Getting the environment set up in VS Code took significant troubleshooting. The original project ran inside a Docker container using Jupyter notebook, which meant MongoDB authentication was handled internally. When I moved to VS Code I was connecting from outside the container for the first time and kept getting authentication errors. I eventually figured out that I needed to add <strong>authSource=admin</strong> to the connection string to tell PyMongo where the user account was stored. That was frustrating but it taught me how MongoDB handles authentication differently depending on where the connection comes from.</p>
+          <p>Another challenge was that the original project was a Jupyter notebook file which cannot be run directly with Python. Converting it to a standard .py file made it easier to run from the terminal, manage with version control, and work with in VS Code like any other Python project.</p>
+          <p>I learned how to properly structure a Python project with environment variables, how database indexing works at a deeper level with B-tree structures, and how to expand an existing module without breaking what was already working. Building the reusable dashboard engine taught me how to think about separation between configuration and logic. By isolating everything project-specific into config.js I created something I can use again on future projects without rewriting the core code. That kind of reusability is something I had not prioritized before, and it changed how I think about building software.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── REVIEW MODAL 1 ─── -->
+<div class="modal-overlay" id="review-modal1" onclick="handleOverlayClick(event, 'review-modal1')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Software Design and Engineering</span>
+        <h2 class="modal-title">Code Review</h2>
+      </div>
+      <button class="modal-close" onclick="closeReviewModal('review-modal1')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="video-wrapper">
+        <iframe src="" data-src="https://www.youtube.com/embed/Dd08JLsYfm4" title="Software Design Code Review" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── REVIEW MODAL 2 ─── -->
+<div class="modal-overlay" id="review-modal2" onclick="handleOverlayClick(event, 'review-modal2')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Algorithms and Data Structures</span>
+        <h2 class="modal-title">Code Review</h2>
+      </div>
+      <button class="modal-close" onclick="closeReviewModal('review-modal2')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="video-wrapper">
+        <iframe src="" data-src="https://www.youtube.com/embed/JFW13_r0wPk" title="Algorithms Code Review" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── REVIEW MODAL 3 ─── -->
+<div class="modal-overlay" id="review-modal3" onclick="handleOverlayClick(event, 'review-modal3')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <span class="modal-category">Databases</span>
+        <h2 class="modal-title">Code Review</h2>
+      </div>
+      <button class="modal-close" onclick="closeReviewModal('review-modal3')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="video-wrapper">
+        <iframe src="" data-src="https://www.youtube.com/embed/_35QPoHIxqc" title="Databases Code Review" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── JAVASCRIPT ─── -->
+<script>
+  function toggleReadMore(btn, id) {
+    const full = document.getElementById(id);
+    const preview = btn.previousElementSibling.previousElementSibling;
+    const isOpen = full.classList.contains('open');
+    full.classList.toggle('open', !isOpen);
+    btn.classList.toggle('open', !isOpen);
+    btn.childNodes[0].textContent = isOpen ? 'Read more ' : 'Read less ';
+    preview.style.display = isOpen ? '' : 'none';
+  }
+
+  function openModal(id) {
+    const overlay = document.getElementById(id);
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    const iframe = overlay.querySelector('iframe[data-src]');
+    if (iframe && !iframe.src) iframe.src = iframe.dataset.src;
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function closeReviewModal(id) {
+    const overlay = document.getElementById(id);
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+    const iframe = overlay.querySelector('iframe[data-src]');
+    if (iframe) iframe.src = '';
+  }
+
+  function handleOverlayClick(e, id) {
+    if (e.target === document.getElementById(id)) {
+      id.startsWith('review-modal') ? closeReviewModal(id) : closeModal(id);
+    }
+  }
+
+  function switchTab(btn, tabId) {
+    const modal = btn.closest('.modal');
+    modal.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+    modal.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.open').forEach(m => {
+        m.id.startsWith('review-modal') ? closeReviewModal(m.id) : closeModal(m.id);
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
